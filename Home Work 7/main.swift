@@ -108,6 +108,29 @@ import Foundation
 //    print(num)
 //}
 
+//var a: Set = [4, 5, 6, 7]
+//var b: Set = [4, 5, 8, 9, 10, 33]
+//
+//let c = a.intersection(b)
+//for aa in c {
+//    print(aa)
+//}
+//let c1 = a.subtracting(b)
+//for aa in c1 {
+//    print(aa)
+//}
+//let c3 = a.union(b)
+//for aa in c3 {
+//    print(aa)
+//}
+//let c4 = a.symmetricDifference(b)
+//for aa in c4 {
+//    print(aa)
+//}
+
+
+
+
 
 
 
@@ -116,14 +139,12 @@ import Foundation
 //For in ցիկլի միջոցով այդ Array-ում գտնվող աժեքները մեծացնել 2 անգամ
 
 
-//var arr = [4, 5, 6, 7]
-//for item in arr {
-//
-//    let result  = item*2
-//
-//   print(result)
-//}
 
+//var arr = [4, 5, 6, 7]
+//for (index, _ )in arr.enumerated() {
+//    arr[index] = arr[index] * 2
+//}
+//print(arr)
 
 
 //Home Work 6_6
