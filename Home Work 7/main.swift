@@ -108,25 +108,28 @@ import Foundation
 //    print(num)
 //}
 
-//var a: Set = [4, 5, 6, 7]
-//var b: Set = [4, 5, 8, 9, 10, 33]
-//
-//let c = a.intersection(b)
-//for aa in c {
-//    print(aa)
-//}
-//let c1 = a.subtracting(b)
-//for aa in c1 {
-//    print(aa)
-//}
-//let c3 = a.union(b)
-//for aa in c3 {
-//    print(aa)
-//}
-//let c4 = a.symmetricDifference(b)
-//for aa in c4 {
-//    print(aa)
-//}
+
+// example 2
+
+var a: Set = [4, 5, 6, 7]
+var b: Set = [4, 5, 8, 9, 10, 33]
+
+let c = a.intersection(b)
+for aa in c {
+    print(aa)
+}
+let c1 = a.subtracting(b)
+for aa in c1 {
+    print(aa)
+}
+let c3 = a.union(b)
+for aa in c3 {
+    print(aa)
+}
+let c4 = a.symmetricDifference(b)
+for aa in c4 {
+    print(aa)
+}
 
 
 
@@ -176,7 +179,7 @@ import Foundation
 //print(oddNum)
 
 
-//tarberak 2
+//example 2 2
 
 //var arr = [4, 5, 6, 7]
 //var oddNum = 0
@@ -218,15 +221,11 @@ import Foundation
 //var arr1 = [4, 5, 8, 93]
 //var finArr: [Int] = [ ]
 //
-//finArr.append(arr[0] + arr1[0])
-//finArr.append(arr[1] + arr1[1])
-//finArr.append(arr[2] + arr1[2])
-//finArr.append(arr[3] + arr1[3])
-//
-//for newArr in finArr {
-//print(newArr)
+//for i in 0..<arr.count {
+//    
+//    finArr.append(arr[i] + arr1[i])
 //}
-
+//print(finArr)
 
 //Home Work 6_10
 //For in ցիկլի միջոցով հաշվել 6 -ի ֆակտորիալը
@@ -238,5 +237,16 @@ import Foundation
 //result*=factorial
 //}
 //print(result)
+
+
+
+
+
+
+
+
+
+
+
 
 
